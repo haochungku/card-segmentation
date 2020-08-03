@@ -47,3 +47,9 @@
   Then, predict images and save the results into new images.
   Last, evaluate model performance by testing dataset.
   predict_c4.py and predict_dc5.py are same, just different .yaml and .pth file.
+  
+## Model Download
+
+* Models including pre-train models in Detectron2 Model Zoo ("checkpoints" folder), change mask r-cnn structure models (model_final_maskrcnn_XXX.pkl) and training results models ("output_XXX_batch_2_sizeimage_512" folder).
+* Models are in https://drive.google.com/file/d/1ekt3Klj7BPI3t8NHgxSHdnqIntgtGWwr/view?usp=sharing
+* Image augmentation samples are also included.
